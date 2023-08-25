@@ -7,7 +7,7 @@ cd('/Server/AdminServer')
 setOption('ServerStartMode', 'prod')
 cmo.setName('admin_remote_test')
 cmo.setListenPort(9001)
-cmo.setListenAddress('192.168.225.144')
+cmo.setListenAddress('192.168.225.114')
 writeDomain('/u01/app/oracle/may23/new_middlware/wls/user_projects/domains/jenkins_remote_test')
 closeTemplate()
 print '>>>Domain created successfully>>>'
